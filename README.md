@@ -4,7 +4,7 @@
 [Termux](https://www.coolapk.com/apk/com.termux)
 
 
-2.运行Termux,并在Termux内执行以下命令  
+2.运行Termux,并在Termux内执行以下命令,会请求存储权限,点击允许  
 `pkg install curl && bash <(curl -L -s https://raw.githubusercontent.com/lgcde/mojo-qqwx/master/termux_mojo.sh)`
 
 3.修改手机存储根目录wx.pl和qq.pl(文件管理器打开,文本模式编辑),填入自己的令牌,并保存  
