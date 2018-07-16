@@ -1,4 +1,4 @@
-# 安卓系统安装Mojo-Webqq、Mojo-Weixin服务端教程  
+### 安卓系统安装Mojo-Webqq、Mojo-Weixin服务端教程  
 
 1.安装Termux,酷安可下  
 [Termux](https://www.coolapk.com/apk/com.termux)
