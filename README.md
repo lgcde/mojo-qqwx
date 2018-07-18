@@ -23,6 +23,9 @@
 二维码图片文件位于/data/data/com.termux/files/usr/tmp/,需要ROOT权限才能查看此文件夹。  
 
 其他可能用到的命令(在Termux内)  
-停止服务端运行``pkill perl`` 查看运行日志``tail -f nohup.out`` 检查perl版本号 ``perl -v`` 查看根目录文件是否存在、可读 ``ls /storage/emulated/0/``
+停止服务端运行``pkill perl`` 
+查看运行日志``tail -f nohup.out`` 
+检查perl版本号 ``perl -v`` 
+查看根目录文件是否存在、可读 ``ls /storage/emulated/0/``
 
 `回复功能需要公网IP,或者内网穿透。也可私信我(提供内网穿透服务,由于服务器需要成本,非免费)`
