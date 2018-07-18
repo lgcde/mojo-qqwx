@@ -3,7 +3,7 @@ use Mojo::Weixin;
 my $client = Mojo::Weixin->new(log_encoding=>"utf-8");
 $client->load("ShowMsg");
 #只修改你想要的推送通道  修改完后将其他三个推送通道全部删除，具体范围从每个推送通道的$client开始到});结束
-#以下为 GCM 推送，其他推送通道以谷歌为例（如果你的vps是海外的那么可以使用）
+#以下为 GCM 推送，其他推送通道以谷歌为例（谷歌通道需要梯子）
 $client->load("GCM",data=>{
     api_url => 'https://gcm-http.googleapis.com/gcm/send',
     api_key=>'AIzaSyB18io0hduB_3uHxKD3XaebPCecug27ht8',
