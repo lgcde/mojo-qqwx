@@ -3,8 +3,8 @@ use Mojo::Weixin;
 my $client = Mojo::Weixin->new(log_encoding=>"utf-8");
 $client->load("ShowMsg");
 $client->load("MiPush",data=>{
-    registration_ids=>[""],#输入你自己从 GCMForMojo APP中获取到的令牌
-    allow_group=>[""],#接收群消息的名称，如需要推送全部群消息可删除这一行，每个群号码之间使用 "", 分隔
+    registration_ids=>[""],#输入你自己从 GCMForMojo APP中获取到的设备码
+    allow_group=>[],#接收群消息的群名称，如需要推送全部群消息可删除这一行，每个群名称之间使用 "", 分隔
     ban_group=>[],
     allow_discuss=>[],
     ban_discuss=>[],
