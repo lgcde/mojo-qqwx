@@ -4,8 +4,8 @@ use Mojo::Webqq;
 my $client = Mojo::Webqq->new(log_encoding=>"utf-8",is_init_group=>0,is_update_group=>0);
 $client->load("ShowMsg");
 $client->load("MiPush",data=>{
-    registration_ids=>[""],#输入你自己从 GCMForMojo APP中获取到的令牌
-    allow_group=>[""],#接收群消息的号码，如需要推送全部群消息可删除这一行，每个群号码之间使用 "", 分隔
+    registration_ids=>[""],#输入你自己从 GCMForMojo APP中获取到的设备码
+    allow_group=>[],#接收群消息的号码，如需要推送全部群消息可删除这一行，每个群号码之间使用 "", 分隔
     ban_group=>[],
     allow_discuss=>[],
     ban_discuss=>[],
