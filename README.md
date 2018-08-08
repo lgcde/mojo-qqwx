@@ -1,12 +1,12 @@
 ### 安卓系统安装Mojo-Webqq、Mojo-Weixin服务端教程  
 
-1.安装Termux,酷安可下  
+1.安装Termux,酷安可下。play商店有最新版。  
 [Termux](https://www.coolapk.com/apk/com.termux)  
 
 2.运行Termux,并在Termux内执行以下命令,会请求存储权限,点击允许  
 `pkg install curl && bash <(curl -L -s https://raw.githubusercontent.com/lgcde/mojo-qqwx/master/termux_mojo.sh)`  
 
-3.运行GCMForMojo APP,设置推送通道,复制设备码。
+3.安装并运行GCMForMojo APP,设置推送通道,复制设备码。
 
 4.修改手机存储根目录wx.pl和qq.pl(文件管理器打开,文本模式编辑),看注释说明填入自己的设备码,删除无用推送通道,并保存。  
 
@@ -28,4 +28,4 @@
 检查perl版本号 ``perl -v`` 
 查看根目录文件是否存在、可读 ``ls /storage/emulated/0/``
 
-`回复功能需要公网IP,或者内网穿透。也可尝试环回地址127.0.0.1或者局域网地址192.168.*.*。`
+`回复功能需要公网IP,或者内网穿透。本地、局域网也可尝试环回地址127.0.0.1或者局域网地址192.168.*.*。`
