@@ -40,7 +40,7 @@ $client->load("FmPush",data=>{
     ban_discuss=>[],
     });
 $client->load("Openqq",data=>{
-    listen => [{host=>"0.0.0.0",port=>5000}, ] ,
+    listen => [{host=>"0.0.0.0",port=>3000}, ] ,
 });
 #不需要 APP 内回复功能请删除以上三行（不包括被 # 号注释掉的几行）
 $client->run();
