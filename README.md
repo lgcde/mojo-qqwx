@@ -14,6 +14,7 @@
 `nohup perl /storage/emulated/0/qq.pl &`
 
 此时GcmForMojo应该会推送"扫描二维码事件",打开链接并保存二维码图片,用QQ客户端扫描相册二维码图片登陆即可  
+`如果没收到二维码推送,尝试检查运行日志``tail -f nohup.out`` 日志文件位于/data/data/com.termux/files/home`  
 
 6.微信执行命令(在Termux内)  
 `nohup perl /storage/emulated/0/wx.pl &`
