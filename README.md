@@ -1,6 +1,6 @@
 **安卓系统安装[Mojo-Webqq](https://github.com/sjdy521/Mojo-Webqq)、[Mojo-Weixin](https://github.com/sjdy521/Mojo-Weixin)服务端**
 
-1. 安装Termux,[酷安](https://www.coolapk.com/apk/com.termux)可下。play商店有最新版[官网](https://termux.com/)。  
+1. 安装Termux,[酷安](https://www.coolapk.com/apk/com.termux)可下。[play商店](https://termux.com/)有最新版。  
 2. 运行Termux,并在Termux内执行以下命令,会请求存储权限,点击允许  
 `pkg install curl && bash <(curl -L -s https://raw.githubusercontent.com/lgcde/mojo-qqwx/master/termux_mojo.sh)`  
 3. 安装并运行[GCMForMojo](https://www.coolapk.com/apk/com.swjtu.gcmformojo) APP,设置推送通道,复制设备码。
