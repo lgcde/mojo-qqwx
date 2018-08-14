@@ -25,9 +25,13 @@
 ``tail -f nohup.out``  
 
 其他可能用到的命令(在Termux内)  
+
 停止服务端运行``pkill perl`` 
+
 查看运行日志``tail -f nohup.out`` 
-检查perl版本号 ``perl -v`` 
+
+检查perl版本号 ``perl -v``
+
 查看根目录文件是否存在、可读 ``ls /storage/emulated/0/``
 
 `回复功能需要公网IP,或者内网穿透。本地、局域网也可尝试环回地址127.0.0.1或者局域网地址192.168.*.*。`
