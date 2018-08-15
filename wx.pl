@@ -12,7 +12,7 @@ $client->load("GCM",data=>{
     #ban_group=>[],#此处为群黑名单
 	#is_ban_official=>1,#屏蔽公众号
     #有白名单、黑名单需求的酌情更改以上三行,然后删除每行开头#使设置生效
-	#设置样例 allow_group=>["一群","二群","三群"] 填入微信群名
+    #设置样例 allow_group=>["一群","二群","三群"] 填入微信群名
 });
 #以下为 MiPush 推送,白名单、黑名单仿照GCM填写
 $client->load("MiPush",data=>{

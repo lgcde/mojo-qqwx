@@ -14,7 +14,7 @@ $client->load("GCM",data=>{
     #allow_discuss=>[],#此处为讨论组白名单
     #ban_discuss=>[],#此处为讨论组黑名单
     #有白名单、黑名单需求的酌情更改以上四行,然后删除每行开头#使设置生效
-	#设置样例 allow_group=>["123","345","456"] 填入QQ群号或者讨论组名称
+    #设置样例 allow_group=>["123","345","456"] 填入QQ群号或者讨论组名称
 });
 #以下为 MiPush 推送,白名单、黑名单仿照GCM填写
 $client->load("MiPush",data=>{
